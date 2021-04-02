@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+// primero se importa bootstrap y luego index.css para poder sobreescribir a bootstrap
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
